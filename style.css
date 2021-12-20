@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  margin-bottom: 30px;
+  padding: 30px;
+  color:white;
+  font-weight: bold;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+input {
+  width: 500px;
+}
+
+body {
+  text-align: center;
+  background-image: url('./images/istockphoto-1132501764-612x612.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 1000px;
+}
+
+#carta-gerada {
+  margin-top: 50px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+#criar-carta {
+  padding: 5px;
+  background-color: rgb(3, 104, 3);
+  color: white;
+}
+
+#container {
+  width: 800px;
+  height: 800px;
+  text-align: justify;
+  overflow: auto;
+  margin: auto;
+  word-break: break-all;
+  margin-bottom: 50px;
+}
+
+#carta-contador {
+  margin-top: 50px;
+  color: white;
+  font: bolder;
+  margin-bottom: 50px;
+}
+
+.newspaper {
+  background-color: antiquewhite;
+  font-family: Times New Roman, Times, serif;
+  font-weight: 700;
+}
+
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url('./images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  transform: rotate(-5deg);
+  display: inline-block;
+}
+
+.rotateright {
+  transform: rotate(5deg);
+  display: inline-block;
+}
+
+.skewleft {
+  transform: skewX(10deg);
+  display: inline-block;
+}
+
+.skewright {
+  transform: skewX(-10deg);
+  display: inline-block;
+}
+
+footer {
+  margin-bottom: 30px;
+  padding: 30px;
+  color:white;
+  font-weight: bold;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+
+#menuContato{
+  text-align: center;
+  margin-top: 5px;
+  width: 100%;
+  color: white;
+}
+
+#menuContato li{
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+
